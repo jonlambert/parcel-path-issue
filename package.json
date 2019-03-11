@@ -1,0 +1,19 @@
+{
+  "name": "foobar",
+  "version": "1.0.0",
+  "private": true,
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "workspace-sources": {
+    "*": [
+      "packages/*/src"
+    ]
+  }
+}

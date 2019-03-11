@@ -1,0 +1,25 @@
+{
+  // "env": {
+  //   "test": {
+  //     "plugins": [
+  //       "@babel/plugin-transform-modules-commonjs",
+  //       [
+  //         "transform-runtime",
+  //         {
+  //           "polyfill": false,
+  //           "regenerator": true
+  //         }
+  //       ]
+  //     ]
+  //   }
+  // },
+  "plugins": [
+    "@babel/plugin-transform-modules-commonjs",
+    [
+      "@babel/plugin-transform-runtime",
+      {
+        "regenerator": true
+      }
+    ]
+  ]
+}
