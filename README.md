@@ -4,6 +4,7 @@ To use, clone this repo then:
 
 ```
 $ cd packages/book
+$ yarn install
 $ npx parcel public/index.html
 ```
 
